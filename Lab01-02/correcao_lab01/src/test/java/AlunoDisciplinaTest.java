@@ -1,6 +1,6 @@
-import main.entities.Aluno;
-import main.entities.Disciplina;
-import main.entities.Horario;
+import entities.Aluno;
+import entities.Disciplina;
+import entities.Horario;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -68,7 +68,7 @@ public class AlunoDisciplinaTest extends BaseTest {
     @Test
     public void numAlunosDisciplinaTest(){
         assertEquals(ca.alunoDisciplina.alunosDaDisciplina(1).size() ,
-            ca.alunoDisciplina.numeroDeAlunosNaDisciplina(1));};
+                ca.alunoDisciplina.numeroDeAlunosNaDisciplina(1));};
 
     @Test
     public void verificaVagasDisciplinaTest(){

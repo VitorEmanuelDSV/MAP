@@ -1,7 +1,7 @@
 package entities;
 
-import main.controller.Figuras;
-import main.entities.Retangulo;
+import controller.Figuras;
+import entities.Retangulo;
 import org.junit.Before;
 import org.junit.Test;
 

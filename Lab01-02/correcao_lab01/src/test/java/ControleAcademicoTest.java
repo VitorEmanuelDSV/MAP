@@ -1,4 +1,4 @@
-import main.entities.Horario;
+import entities.Horario;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -35,7 +35,7 @@ public class ControleAcademicoTest extends BaseTest{
     public void tryGetHorarioProfessorNotRegisteredTest(){
         assertThrows(NoSuchElementException.class,
                 () -> {ca.horarioDoProfessor(ca.professorDisciplina.getProfessorByMatricula(2));
-        });
+                });
     }
 
     @Test
@@ -58,7 +58,7 @@ public class ControleAcademicoTest extends BaseTest{
     @Test
     public void tryGetHorarioByIdNotRegisteredTest() {
         assertThrows(NoSuchElementException.class, () -> {
-           ca.getHorarioById(999);
+            ca.getHorarioById(999);
         });
     }
 

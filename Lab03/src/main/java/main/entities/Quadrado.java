@@ -1,4 +1,4 @@
-package main.entities;
+package entities;
 
 public class Quadrado extends Figura {
     private double lado;

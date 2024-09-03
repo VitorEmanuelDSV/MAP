@@ -1,11 +1,11 @@
-package main.academicControl;
+package academicControl;
 
-import main.entities.Aluno;
-import main.entities.Disciplina;
-import main.entities.Professor;
-import main.entities.Horario;
-import main.intermediateClasses.AlunoDisciplina;
-import main.intermediateClasses.ProfessorDisciplina;
+import entities.Aluno;
+import entities.Disciplina;
+import entities.Professor;
+import entities.Horario;
+import intermediateClasses.AlunoDisciplina;
+import intermediateClasses.ProfessorDisciplina;
 
 import java.util.ArrayList;
 import java.util.NoSuchElementException;

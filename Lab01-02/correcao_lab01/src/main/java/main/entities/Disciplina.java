@@ -1,4 +1,4 @@
-package main.entities;
+package entities;
 
 public class Disciplina {
     private String nome;

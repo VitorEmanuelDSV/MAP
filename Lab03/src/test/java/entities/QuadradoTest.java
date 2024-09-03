@@ -1,7 +1,7 @@
 package entities;
 
-import main.controller.Figuras;
-import main.entities.Quadrado;
+import controller.Figuras;
+import entities.Quadrado;
 import org.junit.Before;
 import org.junit.Test;
 

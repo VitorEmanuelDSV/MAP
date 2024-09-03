@@ -1,6 +1,6 @@
-package main.relationships;
+package relationships;
 
-import main.entities.Figura;
+import entities.Figura;
 
 public class IdFigura {
     private int id;

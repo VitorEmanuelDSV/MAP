@@ -1,6 +1,6 @@
-package main.intermediateClasses;
+package intermediateClasses;
 
-import main.entities.Disciplina;
+import entities.Disciplina;
 
 import java.util.ArrayList;
 import java.util.NoSuchElementException;

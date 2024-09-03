@@ -1,6 +1,6 @@
-package main.main;
+package main;
 
-import main.academicControl.ControleAcademico;
+import academicControl.ControleAcademico;
 
 public class Main {
 

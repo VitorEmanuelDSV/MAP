@@ -1,10 +1,10 @@
-package main.controller;
+package controller;
 
-import main.entities.Circulo;
-import main.entities.Figura;
-import main.entities.Quadrado;
-import main.entities.Retangulo;
-import main.relationships.IdFigura;
+import entities.Circulo;
+import entities.Figura;
+import entities.Quadrado;
+import entities.Retangulo;
+import relationships.IdFigura;
 
 import java.util.ArrayList;
 import java.util.Locale;

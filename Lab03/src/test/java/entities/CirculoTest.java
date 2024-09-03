@@ -1,7 +1,6 @@
 package entities;
 
-import main.controller.Figuras;
-import main.entities.Circulo;
+import controller.Figuras;
 import org.junit.Before;
 import org.junit.Test;
 

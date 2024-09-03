@@ -1,4 +1,4 @@
-package main.entities;
+package entities;
 
 public class Horario {
     private int id;

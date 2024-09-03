@@ -1,4 +1,4 @@
-package main.entities;
+package entities;
 
 public class Circulo extends Figura {
     private double raio;

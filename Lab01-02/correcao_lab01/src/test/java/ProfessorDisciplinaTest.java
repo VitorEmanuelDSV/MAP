@@ -1,8 +1,7 @@
-import main.entities.Disciplina;
-import main.intermediateClasses.ProfessorDisciplina;
+import entities.Disciplina;
+import intermediateClasses.ProfessorDisciplina;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 

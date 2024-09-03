@@ -1,9 +1,9 @@
 package controller;
 
-import main.controller.Figuras;
-import main.entities.Circulo;
-import main.entities.Quadrado;
-import main.entities.Retangulo;
+import controller.Figuras;
+import entities.Circulo;
+import entities.Quadrado;
+import entities.Retangulo;
 import org.junit.Test;
 
 import java.util.*;

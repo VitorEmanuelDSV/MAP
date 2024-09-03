@@ -1,6 +1,4 @@
-
-import main.academicControl.ControleAcademico;
-
+import academicControl.ControleAcademico;
 
 public class BaseTest {
     public ControleAcademico ca = new ControleAcademico();

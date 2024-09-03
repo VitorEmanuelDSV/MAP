@@ -1,9 +1,9 @@
-package main.intermediateClasses;
+package intermediateClasses;
 
-import main.entities.Aluno;
-import main.entities.Disciplina;
-import main.entities.RDM;
-import main.models.StatusDisciplina;
+import entities.Aluno;
+import entities.Disciplina;
+import entities.RDM;
+import models.StatusDisciplina;
 
 import java.util.ArrayList;
 
