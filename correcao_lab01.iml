@@ -2,12 +2,8 @@
 <module version="4">
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" dumb="true">
-      <sourceFolder url="file://$MODULE_DIR$/Lab01-02/correcao_lab01/src/main/java/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lab01-02/correcao_lab01/src/test/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lab03/src/main/java/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lab03/src/test/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lab04/src/main/java/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lab04/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab04/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab04/src/main" isTestSource="false" />
     </content>
   </component>
 </module>

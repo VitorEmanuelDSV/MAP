@@ -4,11 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb64b0d-37fc-431a-9bc0-8f403b483bd8" name="Changes" comment="" />
+    <list default="true" id="ebb64b0d-37fc-431a-9bc0-8f403b483bd8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/controllers/aviao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/Agente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/PapelIF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/Passageiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/Tripulante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/correcao_lab01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/correcao_lab01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlunoDisciplinaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ControleAcademicoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProfessorDisciplinaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academicControl/ControleAcademico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Figuras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/FigurasTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Circulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/CirculoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Disciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Figura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Horario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Quadrado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/QuadradoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/RDM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Retangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/RetanguloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/intermediateClasses/AlunoDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/intermediateClasses/Disciplinas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/intermediateClasses/ProfessorDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/BrincandoComAsFigurasGeometricas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/StatusDisciplina$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/StatusDisciplina$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/StatusDisciplina$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/StatusDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relationships/IdFigura.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,6 +66,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2lXHyxQwGrXqb68p2qq24batBMI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +74,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BrincandoComAsFigurasGeometricas.executor": "Run",
+    "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in correcao_lab01.executor": "Run",
@@ -34,6 +85,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Calebe/Documents/GitHub/MAP/Lab04/src/entities",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,16 +95,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in correcao_lab01">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Calebe\Documents\GitHub\MAP\Lab04\src\entities" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="BrincandoComAsFigurasGeometricas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.BrincandoComAsFigurasGeometricas" />
       <module name="correcao_lab01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="correcao_lab01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,7 +129,7 @@
       <module name="correcao_lab01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,17 +160,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in correcao_lab01" />
         <item itemvalue="Application.BrincandoComAsFigurasGeometricas" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -118,10 +186,16 @@
       <workItem from="1725319761803" duration="25000" />
       <workItem from="1725320112657" duration="1130000" />
       <workItem from="1725321421635" duration="410000" />
+      <workItem from="1725322144759" duration="1001000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Lab01-02" />
+    </ignored-roots>
   </component>
 </project>
