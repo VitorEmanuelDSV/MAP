@@ -3,6 +3,7 @@ package relationships;
 import entities.*;
 
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 public class Funcionario {
 
@@ -17,17 +18,25 @@ public class Funcionario {
         this.papeis.addAll(papeis);
     }
 
-    public void adicionaPapel(FuncaoIF papel) {
+    public FuncaoIF adicionaPapel(FuncaoIF papel) {
+        for(FuncaoIF funcao : papeis) {
+            if(funcao.equals(papel)) {
+                throw new IllegalArgumentException("Este funcionário já possui o papel de: " + papel);
+            }
+        }
         this.papeis.add(papel);
+        return papel;
     }
 
-    public void removePapel(String papel) {
+    public FuncaoIF removePapel(String papel) {
         for(FuncaoIF funcao : this.papeis) {
             if(funcao.getNome().equals(papel)) {
                 this.papeis.remove(funcao);
-                break;
+                return funcao;
             }
         }
+
+        throw new NoSuchElementException("O papel de: " + papel + " não foi encontrado!");
     }
 
     // Create de Papéis

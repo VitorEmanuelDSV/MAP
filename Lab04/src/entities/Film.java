@@ -3,6 +3,7 @@ package entities;
 import controllers.GloboFilmes;
 
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 public class Film {
 
@@ -16,17 +17,26 @@ public class Film {
         this.trilhaSonora = new ArrayList<>();
     }
 
-    public void addTrilhaSonora(int id) {
+    public TrilhaSonora addTrilhaSonora(int id) {
+        for(TrilhaSonora trilhaSonora : trilhaSonora){
+            if(trilhaSonora.getId() == id){
+                throw new IllegalArgumentException("A trilha de id: " + id + " já foi adicionada!");
+            }
+        }
+
         this.trilhaSonora.add(GloboFilmes.searchTrilhaSonoraById(id));
+        return GloboFilmes.searchTrilhaSonoraById(id);
     }
 
-    public void removeTrilhaSonora(int id) {
+    public TrilhaSonora removeTrilhaSonora(int id) {
         for(TrilhaSonora trilha : this.trilhaSonora) {
             if(trilha.getId() == id) {
                 this.trilhaSonora.remove(trilha);
-                break;
+                return trilha;
             }
         }
+        
+        throw new NoSuchElementException("A trilha sonora de id: " + id + " não foi encontrada!");
     }
 
     // Getters and Setters

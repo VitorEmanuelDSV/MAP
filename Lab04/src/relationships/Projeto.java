@@ -5,6 +5,7 @@ import entities.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class Projeto {
 
@@ -31,10 +32,15 @@ public class Projeto {
         return newFuncionario;
     }
 
-    public void removeFuncionario(int id) {
-        this.funcionarios.remove(
-                this.searchFuncionarioById(id)
-        );
+    public Funcionario removeFuncionario(int id) {
+        for(Funcionario funcionario : this.funcionarios){
+            if(funcionario.getPessoa().getId() == id){
+                this.funcionarios.remove(this.searchFuncionarioById(id));
+                return funcionario;
+            }
+        }
+
+        throw new NoSuchElementException("O funcionário de id: " + id + " não foi encontrado!");
     }
 
     public Funcionario searchFuncionarioById(int id) {
