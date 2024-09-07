@@ -4,21 +4,30 @@ import entities.*;
 
 import java.util.ArrayList;
 
-public class FuncionarioPapeis {
+public class Funcionario {
 
     // Vale a pena implementar ID caso vá reutilizar as mesmas funções de um funcionario em um OUTRO projeto -> Não fazer
 
-    private Funcionario funcionario;
+    private Pessoa pessoa;
     private ArrayList<FuncaoIF> papeis = new ArrayList<>();
 
-    public FuncionarioPapeis(Funcionario funcionario, FuncaoIF papel) {
-        this.funcionario = funcionario;
+    public Funcionario(Pessoa pessoa, ArrayList<FuncaoIF> papeis) {
+        this.pessoa = pessoa;
 
-        this.papeis.add(papel);
+        this.papeis.addAll(papeis);
     }
 
     public void adicionaPapel(FuncaoIF papel) {
         this.papeis.add(papel);
+    }
+
+    public void removePapel(String papel) {
+        for(FuncaoIF funcao : this.papeis) {
+            if(funcao.getNome().equals(papel)) {
+                this.papeis.remove(funcao);
+                break;
+            }
+        }
     }
 
     // Create de Papéis
@@ -26,19 +35,23 @@ public class FuncionarioPapeis {
         return new Ator();
     }
 
-    public Camera createCamera() {
+    public static Camera createCamera() {
         return new Camera();
     }
 
-    public Cinegrafista createCinegrafista() {
+    public static Cinegrafista createCinegrafista() {
         return new Cinegrafista();
     }
 
-    public Diretor createDiretor() {
+    public static Diretor createDiretor() {
         return new Diretor();
     }
 
-    // Info - Obs: Os métodos INFO não precisam de testes
+    public static Roteirista createRoteirista() {
+        return new Roteirista();
+    }
+
+    // Métodos INFO
     public String infoPapeis() {
         StringBuilder _papeis = new StringBuilder();
 
@@ -50,12 +63,8 @@ public class FuncionarioPapeis {
     }
 
     // Getters and Setters
-    public Funcionario getFuncionario() {
-        return funcionario;
-    }
-
-    public void setFuncionario(Funcionario funcionario) {
-        this.funcionario = funcionario;
+    public Pessoa getPessoa() {
+        return pessoa;
     }
 
     public ArrayList<FuncaoIF> getPapeis() {

@@ -1,84 +1,150 @@
 package relationships;
 
 import controllers.GloboFilmes;
-import entities.Film;
-import entities.FuncaoIF;
-import entities.Funcionario;
+import entities.*;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Projeto {
 
     private int id;
     private Film film;
-    private static ArrayList<FuncionarioPapeis> funcionarioPapeis = new ArrayList<>();
+    private ArrayList<Funcionario> funcionarios = new ArrayList<>();
 
     public Projeto(int id, Film film) {
         this.id = id;
         this.film = film;
     }
 
-    public FuncionarioPapeis createFuncionarioPapel(int idFuncionario, FuncaoIF funcao) {
-        funcionarioPapeis.forEach(funcionario -> {
-            if(funcionario.getFuncionario().getId() == idFuncionario) throw new IllegalArgumentException("O funcionário já está no Projeto!");
+    public Funcionario createFuncionario(int idFuncionario, ArrayList<FuncaoIF> funcoes) {
+        this.funcionarios.forEach(funcionario -> {
+            if(funcionario.getPessoa().getId() == idFuncionario)
+                throw new IllegalArgumentException("O funcionário "+ funcionario.getPessoa().getId() + " já está no projeto de ID " + this.id + "!");
         });
 
-        Funcionario funcionario = GloboFilmes.searchFuncionarioById(idFuncionario);
+        Pessoa pessoa = GloboFilmes.searchPessoaById(idFuncionario);
 
-        if (funcionario != null) {
-            FuncionarioPapeis newFuncionario = new FuncionarioPapeis(funcionario, funcao);
-            funcionarioPapeis.add(newFuncionario);
+        Funcionario newFuncionario = new Funcionario(pessoa, funcoes);
+        this.funcionarios.add(newFuncionario);
 
-            return newFuncionario;
-        } else {
-            throw new IllegalArgumentException("Funcionário de ID " + idFuncionario + " não existente!");
-        }
-
+        return newFuncionario;
     }
 
     public void removeFuncionario(int id) {
-        funcionarioPapeis.forEach(funcionario -> {
-            if(funcionario.getFuncionario().getId() == id) {
-                funcionarioPapeis.remove(funcionario);
-            }
-        });
+        this.funcionarios.remove(
+                this.searchFuncionarioById(id)
+        );
     }
 
-    public FuncionarioPapeis searchFuncionarioPapelById(int id) {
-        for(FuncionarioPapeis funcionario : funcionarioPapeis) {
-            if(funcionario.getFuncionario().getId() == id) return funcionario;
+    public Funcionario searchFuncionarioById(int id) {
+        for(Funcionario funcionario : this.funcionarios) {
+            if(funcionario.getPessoa().getId() == id) return funcionario;
         }
 
-        return null;
+        throw new IllegalArgumentException("Funcionário de ID " + id + " não está no projeto de id " + this.id + "!");
     }
 
-    public static Film createFilm(int id, String nome, int dataDeLancamento) {
-        return new Film(id, nome, dataDeLancamento);
+    public static Film createFilm(String nome, int dataDeLancamento) {
+        return new Film(nome, dataDeLancamento);
     }
 
-    // Info
-    public String infoFuncionarios() {
-        StringBuilder _funcionarios = new StringBuilder();
+    // Métodos INFO
+    public String infoGeral() {
+        StringBuilder geralInfo = new StringBuilder();
 
-        funcionarioPapeis.forEach(funcionario -> {
-            _funcionarios.append(funcionario.getFuncionario().getNome()).append("\n");
-        });
+        geralInfo
+                .append("Nome do filme: ").append(this.film.getNome())
+                .append("\n")
+                .append("Data de Lançamento: ").append(this.film.getReleaseYear())
+                .append("\n")
+                .append("Diretor(es): ").append(this.infoDiretores())
+                .append("\n")
+                .append("Roterista(s): ").append(this.infoRoteiristas())
+                .append("\n")
+                .append("Elenco: ").append(this.infoElenco())
+                .append("\n")
+                .append("Trilha Sonora: ").append(this.infoTrilhaSonora()).append("\n");
 
-        return _funcionarios.toString();
+        return geralInfo.toString();
     }
 
-    public String infoPapeisPerFuncionario() {
-        StringBuilder _funcionarios = new StringBuilder();
+    public String infoDiretores() {
+        StringBuilder diretores = new StringBuilder();
 
-        funcionarioPapeis.forEach(funcionario -> {
-            _funcionarios.append(funcionario.getFuncionario().getNome()).append("\n");
+        List<String> nomesDiretores = new ArrayList<>();
+
+        for (Funcionario funcionario : funcionarios) {
             for (FuncaoIF papel : funcionario.getPapeis()) {
-                _funcionarios.append(papel.getNome()).append("\n");
+                if (papel instanceof Diretor) {
+                    nomesDiretores.add(funcionario.getPessoa().getNome());
+                    break;
+                }
             }
-        });
+        }
 
+        diretores.append(String.join(", ", nomesDiretores));
 
-        return _funcionarios.toString();
+        return diretores.toString();
+    }
+
+    public String infoRoteiristas() {
+        StringBuilder roteiristas = new StringBuilder();
+
+        List<String> nomesRoteiristas = new ArrayList<>();
+
+        for (Funcionario funcionario : funcionarios) {
+            for (FuncaoIF papel : funcionario.getPapeis()) {
+                if (papel instanceof Roteirista) {
+                    nomesRoteiristas.add(funcionario.getPessoa().getNome());
+                    break;
+                }
+            }
+        }
+
+        roteiristas.append(String.join(", ", nomesRoteiristas));
+
+        return roteiristas.toString();
+    }
+
+    public String infoElenco() {
+        StringBuilder elenco = new StringBuilder();
+
+        for (Funcionario funcionario : funcionarios) {
+            boolean isFromElenco = funcionario.getPapeis().stream()
+                    .anyMatch(papel -> !(papel instanceof Diretor) && !(papel instanceof Roteirista));
+
+            if(isFromElenco) {
+                elenco.append(funcionario.getPessoa().getNome()).append(" - ");
+
+                List<String> papeis = new ArrayList<>();
+
+                for (FuncaoIF papel : funcionario.getPapeis()) {
+                    if (!(papel instanceof Roteirista) && !(papel instanceof Diretor)) {
+                        papeis.add(papel.getNome());
+                    }
+                }
+
+                elenco.append(String.join(", ", papeis));
+            }
+
+        }
+
+        return elenco.toString();
+    }
+
+    public String infoTrilhaSonora() {
+        StringBuilder trilha = new StringBuilder();
+
+        List<String> sons = new ArrayList<>();
+
+        for (TrilhaSonora som : this.film.getTrilhaSonora()) {
+            sons.add(som.getNome());
+        }
+
+        trilha.append(String.join(", ", sons));
+
+        return trilha.toString();
     }
 
     // Getters and Setters
@@ -90,8 +156,8 @@ public class Projeto {
         this.film = film;
     }
 
-    public ArrayList<FuncionarioPapeis> getFuncionarios() {
-        return funcionarioPapeis;
+    public ArrayList<Funcionario> getFuncionarios() {
+        return this.funcionarios;
     }
 
     public int getId() {

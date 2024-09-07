@@ -1,11 +1,11 @@
 package entities;
 
-public class Funcionario {
+public class Pessoa {
 
 	private int id;
 	private String nome;
 	
-	public Funcionario(int id, String nome) {
+	public Pessoa(int id, String nome) {
 		this.setId(id);
 		this.setNome(nome);
 	}
