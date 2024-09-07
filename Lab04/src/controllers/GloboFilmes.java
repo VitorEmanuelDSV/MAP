@@ -1,6 +1,5 @@
 package controllers;
 
-
 import entities.Pessoa;
 import entities.TrilhaSonora;
 import relationships.Funcionario;
@@ -16,20 +15,24 @@ public class GloboFilmes {
 
     public GloboFilmes() {}
 
-    public void createProjeto(int id, String nome, int dataDeLancamento) {
+    public Projeto createProjeto(int id, String nome, int dataDeLancamento) {
         for(Projeto projeto : projetos) {
             if(projeto.getId() == id)  throw new IllegalArgumentException("Projeto de id " + id + " já existente!");
         }
 
-        projetos.add(new Projeto(id, Projeto.createFilm(nome, dataDeLancamento)));
+        Projeto newProjeto = new Projeto(id, Projeto.createFilm(nome, dataDeLancamento));
+        projetos.add(newProjeto);
+        return newProjeto;
     }
 
-    public void createPessoa(int id, String nome) {
+    public Pessoa createPessoa(int id, String nome) {
         for(Pessoa pessoa : pessoas) {
             if(pessoa.getId() == id) throw new IllegalArgumentException("Funcionário de id " + id + " já existente!");;
         }
 
-        pessoas.add(new Pessoa(id, nome));
+        Pessoa newPessoa = new Pessoa(id, nome);
+        pessoas.add(newPessoa);
+        return newPessoa;
     }
 
     // Métodos INFO

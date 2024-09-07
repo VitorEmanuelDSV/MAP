@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-
     public static void main(String[] args) {
 
         // GloboFilmes
@@ -67,8 +66,5 @@ public class Main {
         System.out.println(
                 GloboFilmes.searchProjetoById(2).infoGeral()
         );
-
-
     }
-
 }
