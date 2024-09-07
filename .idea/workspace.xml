@@ -4,27 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb64b0d-37fc-431a-9bc0-8f403b483bd8" name="Changes" comment="fix: workspace">
-      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/TrilhaSonora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab04/src/relationships/FuncionarioPapeis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab04/src/relationships/Projeto.java" afterDir="false" />
+    <list default="true" id="ebb64b0d-37fc-431a-9bc0-8f403b483bd8" name="Changes" comment="feat: implementação dos papeis">
+      <change afterPath="$PROJECT_DIR$/Lab04/src/entities/Roteirista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/controllers/aviao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/controllers/GloboFilmes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Agente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Cinegrafista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/PapelIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/FuncaoIF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Passageiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Diretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Tripulante.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Ator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/controllers/GloboFilmes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/controllers/GloboFilmes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Ator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Ator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Cinegrafista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Cinegrafista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Diretor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/TrilhaSonora.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/entities/TrilhaSonora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab04/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/relationships/FuncionarioPapeis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/relationships/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/relationships/Projeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/src/relationships/Projeto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/aviao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Agente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/PapelIF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Passageiro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Tripulante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/GloboFilmes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/GloboFilmes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Ator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Ator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Camera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Cinegrafista.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Cinegrafista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Diretor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Diretor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Film.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/TrilhaSonora.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/TrilhaSonora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relationships/FuncionarioPapeis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relationships/Projeto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationships/Projeto.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -172,7 +176,9 @@
       <workItem from="1725323343013" duration="142000" />
       <workItem from="1725324025549" duration="203000" />
       <workItem from="1725579571335" duration="14860000" />
-      <workItem from="1725679473409" duration="3471000" />
+      <workItem from="1725679473409" duration="3584000" />
+      <workItem from="1725719469996" duration="2070000" />
+      <workItem from="1725721583257" duration="7982000" />
     </task>
     <task id="LOCAL-00001" summary="feat: commit inicial lab 4">
       <option name="closed" value="true" />
@@ -198,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725324187825</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: implementação dos papeis">
+      <option name="closed" value="true" />
+      <created>1725683039475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725683039475</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: implementação dos papeis">
+      <option name="closed" value="true" />
+      <created>1725683065253</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725683065253</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +243,11 @@
     </ignored-roots>
     <MESSAGE value="feat: commit inicial lab 4" />
     <MESSAGE value="fix: workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: workspace" />
+    <MESSAGE value="feat: implementação dos papeis" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementação dos papeis" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

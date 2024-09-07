@@ -1,31 +1,32 @@
 package entities;
 
+import controllers.GloboFilmes;
+
 import java.util.ArrayList;
 
 public class Film {
 
-    private int id;
     private String nome;
     private ArrayList<TrilhaSonora> trilhaSonora;
     private int releaseYear;
 
-    public Film(int id, String nome, int releaseYear) {
-        this.id = id;
+    public Film(String nome, int releaseYear) {
         this.nome = nome;
         this.releaseYear = releaseYear;
         this.trilhaSonora = new ArrayList<>();
     }
 
-    public void addTrilhaSonora(TrilhaSonora trilha) {
-        this.trilhaSonora.add(trilha);
+    public void addTrilhaSonora(int id) {
+        this.trilhaSonora.add(GloboFilmes.searchTrilhaSonoraById(id));
     }
 
     public void removeTrilhaSonora(int id) {
-        trilhaSonora.forEach(trilha -> {
+        for(TrilhaSonora trilha : this.trilhaSonora) {
             if(trilha.getId() == id) {
                 this.trilhaSonora.remove(trilha);
+                break;
             }
-        });
+        }
     }
 
     // Getters and Setters
@@ -47,17 +48,5 @@ public class Film {
 
     public ArrayList<TrilhaSonora> getTrilhaSonora() {
         return trilhaSonora;
-    }
-
-    public void setTrilhaSonora(ArrayList<TrilhaSonora> trilhaSonora) {
-        this.trilhaSonora = trilhaSonora;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 }

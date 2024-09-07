@@ -9,10 +9,6 @@ public class TrilhaSonora {
         this.nome = nome;
     }
 
-    public TrilhaSonora createTrilhaSonora() {
-        return new TrilhaSonora(id, nome);
-    }
-
     // Getters and Setters
     public int getId() {
         return id;
