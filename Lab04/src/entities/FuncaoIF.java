@@ -1,6 +1,6 @@
 package entities;
 
-public interface PapelIF {
+public interface FuncaoIF {
 	
 	public String getNome();
 

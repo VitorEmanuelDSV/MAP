@@ -1,29 +1,21 @@
-import entities.*;
+import controllers.GloboFilmes;
+import relationships.FuncionarioPapeis;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Pessoa pessoa = new Pessoa("Gabriel");
+        GloboFilmes globoFilmes = new GloboFilmes();
 
-        // Remover depois e colocar no padrão creator
-        PapelIF passageiro = new Passageiro();
-        PapelIF tripulante = new Tripulante();
-        PapelIF agente = new Agente();
+        globoFilmes.createFuncionario(1, "Gabriel");
 
-        pessoa.adicionaPapel(passageiro);
+        globoFilmes.createProjeto(1,1, "Teste", 2024);
 
-        System.out.println(
-                pessoa.infoPapeis()
-        );
-
-        pessoa.adicionaPapel(tripulante);
+        GloboFilmes.searchProjetoById(1).createFuncionarioPapel(1, FuncionarioPapeis.createAtor());
 
         System.out.println(
-                pessoa.infoPapeis()
+                GloboFilmes.searchProjetoById(1).searchFuncionarioPapelById(1).getPapeis()
         );
-
-
 
     }
 
