@@ -74,12 +74,14 @@ public class GloboFilmes {
         throw new IllegalArgumentException("Projeto de id " + id + " não existente!");
     }
 
-    public static void createTrilhaSonora(int id, String nome) {
+    public static TrilhaSonora createTrilhaSonora(int id, String nome) {
         for(TrilhaSonora sonora : trilhas) {
             if(sonora.getId() == id) throw new IllegalArgumentException("Trilha sonora de  " + id + " já existente!");;
         }
 
-        trilhas.add(new TrilhaSonora(id, nome));
+        TrilhaSonora newTrilha = new TrilhaSonora(id, nome);
+        trilhas.add(newTrilha);
+        return newTrilha;
     }
 
     public static TrilhaSonora searchTrilhaSonoraById(int id) {

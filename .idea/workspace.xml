@@ -5,20 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb64b0d-37fc-431a-9bc0-8f403b483bd8" name="Changes" comment="feat: implementação dos papeis">
+      <change afterPath="$PROJECT_DIR$/Lab04/src/test/java/controllers/GloboFilmesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/test/java/entities/FilmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/test/java/relationships/FuncionarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab04/src/test/java/relationships/ProjetoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/controllers/GloboFilmes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Ator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Camera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Cinegrafista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Diretor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Film.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/FuncaoIF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/Roteirista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/entities/TrilhaSonora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/relationships/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/relationships/Projeto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/controllers/GloboFilmes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Ator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Camera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Cinegrafista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Diretor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Film.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/FuncaoIF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Roteirista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/TrilhaSonora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/relationships/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/relationships/Projeto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/controllers/GloboFilmes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Cinegrafista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Diretor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Film.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/FuncaoIF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Roteirista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/TrilhaSonora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/relationships/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/relationships/Projeto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Film.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relationships/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationships/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relationships/Projeto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationships/Projeto.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,30 +66,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BrincandoComAsFigurasGeometricas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.All in correcao_lab01.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Calebe/Documents/GitHub/MAP/Lab04/src/entities&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BrincandoComAsFigurasGeometricas.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in correcao_lab01.executor": "Run",
+    "JUnit.FilmTest.executor": "Run",
+    "JUnit.FilmTest.tryAddTrilhaSonoraAlreadyExistingTest.executor": "Run",
+    "JUnit.FilmTest.tryRemoveTrilhaSonoraNonExistingTest.executor": "Run",
+    "JUnit.FuncionarioTest.adicionaPapelAlredyExistingTest.executor": "Run",
+    "JUnit.FuncionarioTest.adicionaPapelTest.executor": "Run",
+    "JUnit.FuncionarioTest.creatAtorTest.executor": "Run",
+    "JUnit.FuncionarioTest.executor": "Run",
+    "JUnit.FuncionarioTest.removePapelTest.executor": "Run",
+    "JUnit.FuncionarioTest.tryRemovePapelNonExistingTest.executor": "Run",
+    "JUnit.GloboFilmesTest.creatPessoaTest.executor": "Run",
+    "JUnit.GloboFilmesTest.createProjetoTest.executor": "Run",
+    "JUnit.GloboFilmesTest.executor": "Run",
+    "JUnit.GloboFilmesTest.searchProjetoByIdTest.executor": "Run",
+    "JUnit.GloboFilmesTest.searchTrilhaSonoraByIdTest.executor": "Run",
+    "JUnit.GloboFilmesTest.tryCreatePessoaAlreadyExistingTest.executor": "Run",
+    "JUnit.GloboFilmesTest.tryCreateProjetoAlreadyExistingTest.executor": "Run",
+    "JUnit.ProjetoTest.creatFilmTest.executor": "Run",
+    "JUnit.ProjetoTest.executor": "Run",
+    "JUnit.test.java in correcao_lab01.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Calebe/Documents/GitHub/MAP/Lab04/src/entities",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Calebe\Documents\GitHub\MAP\Lab04\src\entities" />
@@ -79,43 +120,78 @@
       <recent name="entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="BrincandoComAsFigurasGeometricas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.BrincandoComAsFigurasGeometricas" />
+  <component name="RunManager" selected="JUnit.test.java in correcao_lab01">
+    <configuration name="FuncionarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="correcao_lab01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="test.java.relationships.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.java.relationships" />
+      <option name="MAIN_CLASS_NAME" value="test.java.relationships.FuncionarioTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="correcao_lab01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <configuration name="FuncionarioTest.creatAtorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="correcao_lab01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="test.java.relationships.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.java.relationships" />
+      <option name="MAIN_CLASS_NAME" value="test.java.relationships.FuncionarioTest" />
+      <option name="METHOD_NAME" value="creatAtorTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in correcao_lab01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjetoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="correcao_lab01" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.relationships.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.relationships" />
+      <option name="MAIN_CLASS_NAME" value="test.java.relationships.ProjetoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjetoTest.creatFilmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="correcao_lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.relationships.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.relationships" />
+      <option name="MAIN_CLASS_NAME" value="test.java.relationships.ProjetoTest" />
+      <option name="METHOD_NAME" value="creatFilmTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.java in correcao_lab01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="correcao_lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,10 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.All in correcao_lab01" />
-        <item itemvalue="Application.BrincandoComAsFigurasGeometricas" />
+        <item itemvalue="JUnit.test.java in correcao_lab01" />
+        <item itemvalue="JUnit.ProjetoTest" />
+        <item itemvalue="JUnit.ProjetoTest.creatFilmTest" />
+        <item itemvalue="JUnit.FuncionarioTest" />
+        <item itemvalue="JUnit.FuncionarioTest.creatAtorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +247,8 @@
       <workItem from="1725719469996" duration="2070000" />
       <workItem from="1725721583257" duration="7982000" />
       <workItem from="1725735788101" duration="4744000" />
+      <workItem from="1725750856268" duration="670000" />
+      <workItem from="1725751556327" duration="8408000" />
     </task>
     <task id="LOCAL-00001" summary="feat: commit inicial lab 4">
       <option name="closed" value="true" />

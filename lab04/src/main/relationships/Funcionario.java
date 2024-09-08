@@ -7,8 +7,7 @@ import java.util.NoSuchElementException;
 
 public class Funcionario {
 
-    // Vale a pena implementar ID caso vá reutilizar as mesmas funções de um funcionario em um OUTRO projeto -> Não fazer
-
+    private int id;
     private Pessoa pessoa;
     private ArrayList<FuncaoIF> papeis = new ArrayList<>();
 
@@ -78,5 +77,13 @@ public class Funcionario {
 
     public ArrayList<FuncaoIF> getPapeis() {
         return this.papeis;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

@@ -1,3 +1,5 @@
+package main;
+
 import controllers.GloboFilmes;
 import relationships.Funcionario;
 
