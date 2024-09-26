@@ -4,199 +4,257 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb64b0d-37fc-431a-9bc0-8f403b483bd8" name="Changes" comment="feat: implementação dos papeis">
-      <change afterPath="$PROJECT_DIR$/Lab04/src/test/java/controllers/GloboFilmesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab04/src/test/java/entities/FilmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab04/src/test/java/relationships/FuncionarioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab04/src/test/java/relationships/ProjetoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab03/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/controllers/GloboFilmes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Ator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Camera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Cinegrafista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Diretor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Film.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/FuncaoIF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/Roteirista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/entities/TrilhaSonora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/relationships/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/src/main/java/relationships/Projeto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/controllers/GloboFilmes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Cinegrafista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Diretor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Film.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/FuncaoIF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/Roteirista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/entities/TrilhaSonora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/relationships/Funcionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/target/classes/relationships/Projeto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Film.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/relationships/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationships/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/relationships/Projeto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/relationships/Projeto.class" afterDir="false" />
+    <list default="true" id="942eb128-d076-459b-9537-8c41dad46d27" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.idea/Lab01-MAP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/bd/AlunosBD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/bd/DisciplinasBD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/bd/ProfessoresBD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/controllers/Coordenacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/entities/AltAluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/entities/AltDisciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/entities/AltProfessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/main/AltMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/models/Areas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/relationships/alunoDisciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/relationships/controleAcademico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/src/main/java/alt_main/relationships/professorDisciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/bd/AlunosBD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/bd/DisciplinasBD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/bd/ProfessoresBD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/controllers/Coordenacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/entities/AltAluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/entities/AltDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/entities/AltProfessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/main/AltMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/models/Areas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/models/Areas$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/models/Areas$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/models/Areas$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/models/Areas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/relationships/alunoDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/relationships/controleAcademico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/alt_lab01/target/classes/alt_main/relationships/professorDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/academicControl/ControleAcademico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/entities/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/entities/Disciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/entities/Horario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/entities/Professor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/entities/RDM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/intermediateClasses/AlunoDisciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/intermediateClasses/Disciplinas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/intermediateClasses/ProfessorDisciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/main/java/main/models/StatusDisciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/test/java/AlunoDisciplinaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/test/java/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/test/java/ControleAcademicoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/src/test/java/ProfessorDisciplinaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/academicControl/ControleAcademico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/entities/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/entities/Disciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/entities/Horario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/entities/Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/entities/RDM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/intermediateClasses/AlunoDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/intermediateClasses/Disciplinas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/intermediateClasses/ProfessorDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/classes/main/models/StatusDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/surefire-reports/ControleAcademicoTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/surefire-reports/ProfessorDisciplinaTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/surefire-reports/TEST-ControleAcademicoTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/surefire-reports/TEST-ProfessorDisciplinaTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/test-classes/AlunoDisciplinaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/test-classes/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/test-classes/ControleAcademicoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/correcao_lab01/target/test-classes/ProfessorDisciplinaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/doc/Diagrama de Classes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/doc/Main.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/doc/QuaseLá.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/doc/Solução Lab01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/doc/bd/AlunosBD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/doc/bd/DisciplinasBD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/doc/bd/ProfessoresBD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/doc/rdm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/lab01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/src/main/java/main/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/src/main/java/main/Disciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/src/main/java/main/Professor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/src/test/java/baseTestes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/src/test/java/testesAluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/src/test/java/testesDisciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/src/test/java/testesProfessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/classes/main/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/classes/main/Disciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/classes/main/Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/surefire-reports/TEST-testesAluno.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/surefire-reports/testesAluno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/test-classes/baseTestes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/test-classes/testesAluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/test-classes/testesDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/lab01/target/test-classes/testesProfessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/bd/AlunosBD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/bd/DisciplinasBD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/bd/ProfessoresBD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/controllers/Coordenacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/entities/AltAluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/entities/AltDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/entities/AltProfessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/main/AltMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/models/Areas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/models/Areas$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/models/Areas$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/models/Areas$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/models/Areas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/relationships/alunoDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/relationships/controleAcademico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/alt_main/relationships/professorDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/academicControl/ControleAcademico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/entities/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/entities/Disciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/entities/Horario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/entities/Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/entities/RDM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/intermediateClasses/AlunoDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/intermediateClasses/Disciplinas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/intermediateClasses/ProfessorDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/models/StatusDisciplina$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/models/StatusDisciplina$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/models/StatusDisciplina$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/production/Lab01-MAP/main/models/StatusDisciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/test/Lab01-MAP/AlunoDisciplinaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/test/Lab01-MAP/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/test/Lab01-MAP/ControleAcademicoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01-02/out/test/Lab01-MAP/ProfessorDisciplinaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/.idea/Lab03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/doc/LAB_CoesaoEAcoplamento.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/doc/origClasses/BrincandoComAsFigurasGeometricasOrig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/doc/origClasses/FigurasGeometricasOrig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/main/controller/Figuras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/main/entities/Circulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/main/entities/Figura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/main/entities/Quadrado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/main/entities/Retangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/main/main/BrincandoComAsFigurasGeometricas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/main/relationships/IdFigura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/test/java/controller/FigurasTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/test/java/entities/CirculoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/test/java/entities/QuadradoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/src/test/java/entities/RetanguloTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/classes/main/controller/Figuras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/classes/main/entities/Circulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/classes/main/entities/Figura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/classes/main/entities/Quadrado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/classes/main/entities/Retangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/classes/main/main/BrincandoComAsFigurasGeometricas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/classes/main/relationships/IdFigura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/test-classes/controller/FigurasTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/test-classes/entities/CirculoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/test-classes/entities/QuadradoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab03/target/test-classes/entities/RetanguloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/test/java/controllers/GloboFilmesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/test/java/entities/FilmTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/test/java/relationships/FuncionarioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04/src/test/java/relationships/ProjetoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/controllers/GloboFilmes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/Ator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/Camera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/Cinegrafista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/Diretor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/Film.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/FuncaoIF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/Roteirista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/entities/TrilhaSonora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/relationships/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/main/relationships/Projeto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/GloboFilmes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Ator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Camera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Cinegrafista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Diretor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Film.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/FuncaoIF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Roteirista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/TrilhaSonora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relationships/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relationships/Projeto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/controllers/GloboFilmesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/entities/FilmTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/relationships/FuncionarioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/relationships/ProjetoTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2lXHyxQwGrXqb68p2qq24batBMI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2mM91bfNwv8L4inw4bS5ZKQjorx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BrincandoComAsFigurasGeometricas.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.All in correcao_lab01.executor": "Run",
-    "JUnit.FilmTest.executor": "Run",
-    "JUnit.FilmTest.tryAddTrilhaSonoraAlreadyExistingTest.executor": "Run",
-    "JUnit.FilmTest.tryRemoveTrilhaSonoraNonExistingTest.executor": "Run",
-    "JUnit.FuncionarioTest.adicionaPapelAlredyExistingTest.executor": "Run",
-    "JUnit.FuncionarioTest.adicionaPapelTest.executor": "Run",
-    "JUnit.FuncionarioTest.creatAtorTest.executor": "Run",
-    "JUnit.FuncionarioTest.executor": "Run",
-    "JUnit.FuncionarioTest.removePapelTest.executor": "Run",
-    "JUnit.FuncionarioTest.tryRemovePapelNonExistingTest.executor": "Run",
-    "JUnit.GloboFilmesTest.creatPessoaTest.executor": "Run",
-    "JUnit.GloboFilmesTest.createProjetoTest.executor": "Run",
-    "JUnit.GloboFilmesTest.executor": "Run",
-    "JUnit.GloboFilmesTest.searchProjetoByIdTest.executor": "Run",
-    "JUnit.GloboFilmesTest.searchTrilhaSonoraByIdTest.executor": "Run",
-    "JUnit.GloboFilmesTest.tryCreatePessoaAlreadyExistingTest.executor": "Run",
-    "JUnit.GloboFilmesTest.tryCreateProjetoAlreadyExistingTest.executor": "Run",
-    "JUnit.ProjetoTest.creatFilmTest.executor": "Run",
-    "JUnit.ProjetoTest.executor": "Run",
-    "JUnit.test.java in correcao_lab01.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Calebe/Documents/GitHub/MAP/Lab04/src/entities",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "last_opened_file_path": "C:/Users/Vitor Emanuel/Documents/Linguagens/Java/Estudos/Teste",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Calebe\Documents\GitHub\MAP\Lab04\src\entities" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="entities" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.test.java in correcao_lab01">
-    <configuration name="FuncionarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="correcao_lab01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.relationships.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.relationships" />
-      <option name="MAIN_CLASS_NAME" value="test.java.relationships.FuncionarioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuncionarioTest.creatAtorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="correcao_lab01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.relationships.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.relationships" />
-      <option name="MAIN_CLASS_NAME" value="test.java.relationships.FuncionarioTest" />
-      <option name="METHOD_NAME" value="creatAtorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjetoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="correcao_lab01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.relationships.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.relationships" />
-      <option name="MAIN_CLASS_NAME" value="test.java.relationships.ProjetoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjetoTest.creatFilmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="correcao_lab01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.relationships.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.relationships" />
-      <option name="MAIN_CLASS_NAME" value="test.java.relationships.ProjetoTest" />
-      <option name="METHOD_NAME" value="creatFilmTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.java in correcao_lab01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="correcao_lab01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="MAP" />
       <method v="2">
@@ -210,15 +268,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.test.java in correcao_lab01" />
-        <item itemvalue="JUnit.ProjetoTest" />
-        <item itemvalue="JUnit.ProjetoTest.creatFilmTest" />
-        <item itemvalue="JUnit.FuncionarioTest" />
-        <item itemvalue="JUnit.FuncionarioTest.creatAtorTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -231,93 +280,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebb64b0d-37fc-431a-9bc0-8f403b483bd8" name="Changes" comment="" />
-      <created>1725319760374</created>
+      <changelist id="942eb128-d076-459b-9537-8c41dad46d27" name="Changes" comment="" />
+      <created>1726875365207</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725319760374</updated>
-      <workItem from="1725319761803" duration="25000" />
-      <workItem from="1725320112657" duration="1130000" />
-      <workItem from="1725321421635" duration="410000" />
-      <workItem from="1725322144759" duration="1076000" />
-      <workItem from="1725323343013" duration="142000" />
-      <workItem from="1725324025549" duration="203000" />
-      <workItem from="1725579571335" duration="14860000" />
-      <workItem from="1725679473409" duration="3584000" />
-      <workItem from="1725719469996" duration="2070000" />
-      <workItem from="1725721583257" duration="7982000" />
-      <workItem from="1725735788101" duration="4744000" />
-      <workItem from="1725750856268" duration="670000" />
-      <workItem from="1725751556327" duration="8408000" />
+      <updated>1726875365207</updated>
+      <workItem from="1726875368015" duration="45000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: commit inicial lab 4">
-      <option name="closed" value="true" />
-      <created>1725323171437</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1725323171437</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: commit inicial lab 4">
-      <option name="closed" value="true" />
-      <created>1725323212606</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1725323212606</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fix: workspace">
-      <option name="closed" value="true" />
-      <created>1725324187825</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1725324187825</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat: implementação dos papeis">
-      <option name="closed" value="true" />
-      <created>1725683039475</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1725683039475</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat: implementação dos papeis">
-      <option name="closed" value="true" />
-      <created>1725683065253</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1725683065253</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/Lab01-02" />
-    </ignored-roots>
-    <MESSAGE value="feat: commit inicial lab 4" />
-    <MESSAGE value="fix: workspace" />
-    <MESSAGE value="feat: implementação dos papeis" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementação dos papeis" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

@@ -1,0 +1,79 @@
+Revisão 1 MAP
+
+Introdução
+
+Triangulo do desenvolvimento de um software, escopo, custo e tempo.
+Os padrões de projeto fazem reuso de ideias e não e código.
+O desenvolvimento baseado em componentes faz o reuso de componentes já feitos anteriormente.
+Frameworks fazem a captura de funcionalidades em comum entre muitas aplicações.
+Busca-se o desenvolvimento de sistemas simples, flexível e reutilizável.
+
+Testes de Software
+
+Testes tem o objetivo de encontrar e apresentar as falhas presentes no software.
+bugs encontrados = bugs corrigidos.
+O testador deve assumir que o programa tem falhas.
+Erro: é uma ação humana que produz um resultado incorreto.
+Defeito: é a manifestação de um erro no software.
+Falha: diferença indesejável entre o observado e o esperado.
+O teste de caixa preta é feito sem considerar o comportamento interno do componente a ser testado.
+O teste de caixa branca é realizado avaliando o comportamento interno do componente, podendo ser feitos testes de fluxo de dados, teste de condição, teste de ciclos e testes de caminhos lógicos.
+
+Expert
+
+Padrões GRASP (General Responsibility Assignment Software Patterns/Principles).
+Uma responsabilidade não é igual a um método.
+Métodos são usados para implementar responsabilidades.
+Quem possui a informação necessária para preencher a responsabilidade?
+Quem contém as informações que precisam ser manipuladas?
+Quem conhece as informações que precisam serem processadas?
+
+Creator
+
+Atribuir à classe B a responsabilidade de criar instância da classe A se uma das seguintes condições se aplicar:
+– B agrega objetos da classe A
+– B contém objetos da classe A
+– B registra instâncias da classe A
+– B usa muitos objetos da classe A
+– B possui os dados usados para inicializar A
+
+Alta Coesão
+
+Coincidente: Deve ser evitada.
+Lógica: Os métodos internos contribuem para atividades da mesma categoria geral.
+Temporal: Seus métodos internos executam atividades que estão relacionadas pelo tempo de realização.
+Procedural: Suas funções internas executam atividades diferentes, não correlacionadas, exceto por seguirem uma mesma ordem de execução.
+Comunicação: Suas funções internas estão relacionadas por utilizarem as mesmas informações.
+Sequencial: Suas funções internas estão envolvidas em atividades de tal forma, que os dados de saída de uma atividade sirvam como dados de entrada para a próxima.
+Funcional: Suas funções internas contribuem para a execução de uma e apenas uma tarefa relacionada ao problema. (OBJETIVO)
+
+Um método coeso deve:
+– Ser simples de entender.
+– Ter apenas uma única tarefa (atômica).
+Você pode está construindo métodos com baixa coesão se:
+– Não consegue dar um nome simples a um método..
+– O nome do método é muito genérico.
+– O método recebe um parâmetro.
+• que tem seus “valores” alterados.
+• que não é utilizado.
+
+Baixo Acoplamento
+
+Tornar os módulos tão independentes quanto possível.
+Como obter?
+– Eliminando-se comunicação desnecessária.
+– Reduzindo-se o número de comunicações necessárias.
+– Enfraquecendo a dependência das relações necessárias.
+
+Dados internos: Um objeto altera (faz referência) aos dados locais (internos) de um outro objeto.
+Dados globais: Dois ou mais objetos compartilham estruturas de dados globais.
+Controle: Passar flags de controle entre objetos de forma que um objeto controle as etapas de processamento de outro objeto.
+Dados: Situações
+– Saída de um objeto é entrada de outro.
+– Uso de parâmetros para passar itens entre métodos.
+
+Interface/Polimorfismo
+
+
+
+Herança/Composição
